@@ -392,3 +392,20 @@ footer {
     justify-content: center;
   }
 }
+.download-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--vert-moyen);
+  color: var(--blanc);
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.download-btn:hover {
+  background: var(--vert-clair);
+  transform: scale(1.05);
+}
+
